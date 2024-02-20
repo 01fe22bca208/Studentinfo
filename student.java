@@ -1,6 +1,5 @@
-public class student   {
-public String course[] = { "C#", "Applied statistics", "JAVA" };
-     public int marks[] = { 70, 100, 30 };
+public class student extends course   {
+
     public void Display() {
         String name = "kiran";
         String program = "BCA";
@@ -16,6 +15,6 @@ public String course[] = { "C#", "Applied statistics", "JAVA" };
     public static void main(String[] args) {
         student s = new student();
         s.Display();
-//s.read();
+s.read();
     }
 }
